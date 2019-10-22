@@ -1,0 +1,22 @@
+@import '~bootstrap/scss/bootstrap';
+
+$container-bgColor: rgba(128, 0, 128, 0.2);
+$container-radius: 5px;
+$card-bg: purple;
+$card-color: white;
+
+body {
+  margin: 20px;
+  .container {
+    margin: 0px;
+    padding: 50px;
+    border-radius: $container-radius;
+    background: $container-bgColor;
+    .card {
+      background: $card-bg;
+      color: $card-color;
+      box-shadow: 0px 2px 5px rgba(34, 34, 34, 1),
+        0px 4px 5px rgba(34, 34, 34, 0.2);
+    }
+  }
+}
