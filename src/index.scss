@@ -1,17 +1,33 @@
 @import '~bootstrap/scss/bootstrap';
 
-$container-bgColor: rgba(128, 0, 128, 0.2);
+$container-bgColor: rgba(155, 44, 155, 0.05);
 $container-radius: 5px;
 $card-bg: purple;
 $card-color: white;
 
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+h1 {
+  position: absolute;
+  z-index: -3;
+  top: 0;
+  left: 0;
+  color: rgba(255, 0, 0, 0.05);
+}
 body {
-  margin: 20px;
+  border: 50px solid $container-bgColor;
+  height: 100vh;
+  width: 100%;
+  overflow-x: scroll;
+  box-sizing: border-box;
+  padding: 20px;
   .container {
-    margin: 0px;
     padding: 50px;
     border-radius: $container-radius;
-    background: $container-bgColor;
     .card {
       background: $card-bg;
       color: $card-color;
