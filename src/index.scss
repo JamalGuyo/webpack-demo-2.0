@@ -2,7 +2,7 @@
 
 $container-bgColor: rgba(155, 44, 155, 0.05);
 $container-radius: 5px;
-$card-bg: purple;
+$card-bg: #000;
 $card-color: white;
 
 * {
@@ -16,7 +16,7 @@ h1 {
   z-index: -3;
   top: 0;
   left: 0;
-  color: rgba(255, 0, 0, 0.05);
+  color: rgba(0, 0, 0, 0.05);
 }
 body {
   border: 50px solid $container-bgColor;
